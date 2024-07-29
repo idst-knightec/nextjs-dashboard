@@ -1,0 +1,27 @@
+.shape {
+    height: 0;
+    width: 0;
+    border-bottom: 40px solid black;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+  }
+
+@media only screen and (max-width: 1023px) {
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+    }
+}
